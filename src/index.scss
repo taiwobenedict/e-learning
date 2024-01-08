@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
+
+// Variables
+$primary-color: #FF9200;
+$light-color: #fff;
+
+body {
+  font-family: 'Montserrat', sans-serif !important;
+}
+
+@media (min-width: 992px) {
+  .container {
+    max-width: 1200px !important;
+  }
+}
+
+@import "./styles/components";
+@import "./styles/navbar";
+@import "./styles/home";
+@import "./styles/auth"

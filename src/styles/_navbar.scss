@@ -1,0 +1,15 @@
+#navbar {
+    background-color: $primary-color;
+    color: $light-color;
+    height: 68px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+    
+    .logo {
+        font-size: 25px;
+        font-weight: 600;
+    }
+}
